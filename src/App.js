@@ -13,9 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <Route
-        render={(props) => (
+        render={() => (
           <>
-            <Header {...props} />
+            <Header />
             <Routes />
             <Footer />
           </>
